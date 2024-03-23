@@ -1,0 +1,30 @@
+body{
+  background-image: url('../public/images/background-img.jpeg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  
+}
+
+.weather-box{
+border:3px solid rgba(3, 55, 22, 0.737);
+padding:40px;
+background-color: rgba(30, 120, 3, 0.734);
+border-radius: 30px;
+margin:20px;
+color:white;
+}
+
+.btn.btn-warning{
+  margin-left:10px;
+  color:rgb(48, 47, 47);
+  font-weight: 500;
+}
