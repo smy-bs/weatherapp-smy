@@ -29,7 +29,8 @@ color:white;
   font-weight: 500;
 }
 
-.btn.btn-warning.active {
+.btn.btn-warning:hover {
+  color:white;
     transform: scaleY(1.3);
     box-shadow: 0 0 3px 3px rgba(200,200,200,0.1);
 }
